@@ -1,3 +1,7 @@
+variable "access_key"{
+    description = "Access key of AWS account"
+}
+variable "secret_key"{}
 variable "AMI_Value"{
     description = "AMI Value of the Instance"
 }
