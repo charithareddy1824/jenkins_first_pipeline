@@ -7,3 +7,12 @@ variable "Region"{
 variable "type"{
     description = "Instance belongs to micro"
 }
+variable "private_key_file"{
+    default = "mykeypair"
+}
+variable "public_key_file"{
+    default = "C:/Users/Don't Know/.ssh/mykeypair.pub"
+}
+variable "instance_username"{
+    default ="ubuntu"
+}
