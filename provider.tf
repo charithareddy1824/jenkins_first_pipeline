@@ -6,7 +6,6 @@ terraform {
     }
   }
 }
-provider "aws"{
-       region = var.Region
-       access_key = var.access_key
+provider "aws" {
+  region = var.Region
 }

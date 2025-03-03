@@ -1,7 +1,4 @@
-variable "access_key"{
-    description = "Access key of AWS account"
-}
-variable "secret_key"{}
+variable "AWS_SECRET_ACCESS_KEY"{}
 variable "AMI_Value"{
     description = "AMI Value of the Instance"
 }
@@ -15,7 +12,7 @@ variable "private_key_file"{
     default = "mykeypair"
 }
 variable "public_key_file"{
-    default = "C:/Users/Don't Know/.ssh/mykeypair.pub"
+    default = "mykeypair.pub"
 }
 variable "instance_username"{
     default ="ubuntu"
