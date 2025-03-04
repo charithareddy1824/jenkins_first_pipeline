@@ -1,4 +1,3 @@
-variable "AWS_SECRET_ACCESS_KEY"{}
 variable "AMI_Value"{
     description = "AMI Value of the Instance"
 }
