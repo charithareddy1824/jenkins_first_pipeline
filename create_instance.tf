@@ -8,7 +8,7 @@ resource "aws_instance" "myfirstinstance"{
     instance_type = var.type 
     key_name = aws_key_pair.mykeypair.key_name
     tags = {
-        Name ="MyFirstTerraformInstance"
+        Name ="MyFirstTerraformInstance12"
     }
 
     provisioner "file"{
